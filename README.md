@@ -1,4 +1,4 @@
-# eDreams test for the Data Scientist Role
+# eDreams test for Data Scientist Role
 
 Repository of the test for the Data Scientist position in eDreams.
 
