@@ -27,7 +27,9 @@ Two files are attached with the training and test datasets. The training dataset
 `TRAIN`: (boolean) Whether the booking contains train tickets or not <br>
 `DISTANCE`: (float) Distance travelled <br>
 `DEVICE`: (string) Device used for the purchase <br>
-`HAUL TYPE`: (string) Whether the trip was “Domestic”, “Continental” or “Intercontinental”. TRIP TYPE: (string) Trips can be either “One Way”, “Round Trip” or “Multi-Destination” PRODUCT: (string) Bookings can contain only travel (“Trip”) or travel and a hotel (“Dynpack”). <br>
+`HAUL TYPE`: (string) Whether the trip was “Domestic”, “Continental” or “Intercontinental”.<br>
+`TRIP TYPE`: (string) Trips can be either “One Way”, “Round Trip” or “Multi-Destination” <br>
+`PRODUCT`: (string) Bookings can contain only travel (“Trip”) or travel and a hotel (“Dynpack”). <br>
 `SMS`: (boolean) Indicates if the customer has selected a confirmation by SMS <br>
 `EXTRA BAGGAGE`: (boolean) Variable to predict, only in the train dataset. Indicates if the customer has purchased extra baggage for the trip or not.
 
