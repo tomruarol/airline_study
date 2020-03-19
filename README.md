@@ -19,7 +19,8 @@ Two files are attached with the training and test datasets. The training dataset
 `TIMESTAMP`: (date) date when the booking was bought. <br>
 `WEBSITE`: (string) Website where the trip was purchased. It is composed of a prefix that stands for the website (“ED” = Edreams, “OP” = Opodo, “GO” = Go Voyage) and a suffix for the country (for example: ES = Spain)<br>
 `GDS`: (integer) Number of flights bought through the Global Distribution System <br>
-`NO GDS`: (integer) Number of flights bought through other channels. DEPARTURE: (date) Departure date <br>
+`NO GDS`: (integer) Number of flights bought through other channels. <br>
+`DEPARTURE`: (date) Departure date <br>
 `ARRIVAL`: (date) Arrival date <br>
 `ADULTS`: (integer) Number of adults <br>
 `CHILDREN`: (integer) Number of children <br>
