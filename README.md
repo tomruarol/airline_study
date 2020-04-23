@@ -1,6 +1,6 @@
-# Airlane Data Study
+# Airline Data Study
 
-Complete Data Science flow for airlane data. 
+Complete Data Science flow for airline data. 
 
 From data import, feature engineering, to modeling and submission.
 
