@@ -1,16 +1,14 @@
-# eDreams test for Data Scientist Role
+# Airlane Data Study
 
-Repository of the test for the Data Scientist position in eDreams.
+Complete Data Science flow for airlane data. 
+
+From data import, feature engineering, to modeling and submission.
 
 ## PREDICTING BAGGAGE LIKELIHOOD
 
-### OVERVIEW
-
-At eDreams ODIGEO we are always looking for ways to improve customer satisfaction. With this objective in mind, we would like to predict whether a new customer is interested in buying additional baggage in order to speed up the booking process.
-
 ### GOAL
 
-The goal of this task is to predict which new customers are going to purchase additional baggage for their trips using historical information from past bookings. The code can be developed in any of the following languages: Python, R or Java.
+The goal of this task is to predict which new customers are going to purchase additional baggage for their trips using historical information from past bookings.
 
 ### DATA DESCRIPTION
 
@@ -34,15 +32,9 @@ Two files are attached with the training and test datasets. The training dataset
 `SMS`: (boolean) Indicates if the customer has selected a confirmation by SMS <br>
 `EXTRA BAGGAGE`: (boolean) Variable to predict, only in the train dataset. Indicates if the customer has purchased extra baggage for the trip or not.
 
-### GENERAL GUIDELINES
-
-- It is up to you to submit the solution in the format you prefer (markdown, html, jupyter notebook, shiny report, etc). Nevertheless, if the submitted files consist only in code and comments, and you plot your graphics on the side during the exploration, please include these in a folder so that they can be referenced.
-- Every decision (what steps are taken, what algorithms are used, what data is transformed or discarded) should have a succinct explanation or justification.
-- We are looking forward to knowing how much you know about the context (problem, possible solutions, repercussions) at every step of the data science flow. Show us the best you can do at each of the steps and why: data cleaning, transformations, validations, modeling, tuning, etc.
-
 ### EVALUATION
 
-The evaluation will be based on the quality and explanation of the source code, analysis performed, insights extracted and comments as well as the prediction scores. For the prediction score, the metric will depend on the output: in case a binary output is submitted, the evaluation method will be the F1 Score, in case a probability is given, the evaluation method will be the AUC ROC. If you consider there is also other interesting metrics to evaluate the exercise feel free to add them.
+The evaluation method will be the F1 Score, in case a probability is given, the evaluation method will be the AUC ROC.
 
 ### SUBMISSION FORMAT
 
